@@ -1,7 +1,9 @@
 .. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
     :target: https://opensource.org/licenses/Apache-2.0
+
 .. image:: https://img.shields.io/badge/DOI-10.1088/1361-6560/acf90e.svg
     :target: https://doi.org/10.1088/1361-6560/acf90e
+
 .. image:: https://img.shields.io/badge/arXiv-2212.02177-b31b1b.svg
     :target: https://arxiv.org/abs/2212.02177
 
@@ -15,9 +17,10 @@ of the reconstructed image to the entries of the projection matrices. The backpr
 learning sense.
 
 The code in this repository is at the core of the results presented in our paper **Gradient-based geometry learning for
-fan-beam CT reconstruction** which has been published in `Physics in Medicine & Biology <https://doi.org/10.1088/1361-6560/acf90e>`_.
-While the paper focuses on fan-beam geometry, this repository additionally contains an analogous implementation for
-cone-beam geometry.
+fan-beam CT reconstruction** which has been published in `Physics in Medicine & Biology <https://doi.org/10.1088/1361-6560/acf90e>`_ 
+and focuses on fan-beam geometry. Our follow-up paper **A gradient-based approach to fast and accurate head motion compensation 
+in cone-beam CT** extends the concepts to cone-beam geometry and has been published in `IEEE Transactions on Medical
+Imaging <https://doi.org/10.1109/TMI.2024.3474250>`_.
 
 Usage
 ~~~~~~
@@ -78,6 +81,19 @@ If you use this code for your research, please cite our paper:
         url={http://iopscience.iop.org/article/10.1088/1361-6560/acf90e},
         year={2023}
     }
+
+or
+
+.. code-block::
+
+    @article{10.1109/TMI.2024.3474250,
+        author={Thies, Mareike and Wagner, Fabian and Maul, Noah and Yu, Haijun and Goldmann, Manuela and Schneider, Linda-Sophie and Gu, Mingxuan and Mei, Siyuan and Folle, Lukas and Preuhs, Alexander and Manhart, Michael and Maier, Andreas},
+        journal={IEEE Transactions on Medical Imaging}, 
+        title={A gradient-based approach to fast and accurate head motion compensation in cone-beam CT}, 
+        year={2024},
+        doi={10.1109/TMI.2024.3474250}
+    }
+
 
 If you have any questions about this repository or the paper, feel free to reach out
 (`mareike.thies@fau.de <mareike.thies@fau.de>`_).
